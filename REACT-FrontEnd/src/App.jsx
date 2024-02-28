@@ -14,7 +14,6 @@ function App() {
 			{ helloData.map((data, index) => (
 				<Hello key={index} name={data.name} message={data.message} />
 			))}
-
 			<Contact email="ppuwdon@gmail.com" phone="0926437604" />
 		</div>
 	)
